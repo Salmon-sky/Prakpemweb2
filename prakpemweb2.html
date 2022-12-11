@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan Percobaan Praktikum Pemweb 2</title>
+</head>
+
+<style>
+header{
+    background-color: darkgrey;
+    Font-family:verdana;
+}
+
+h1{ 
+    color:aliceblue; 
+}
+
+h2{
+    background-color:darkgrey;
+    width:200px;
+    height:40px;
+}
+.navigasi{
+    background-color: aquamarine;
+    height: 30px;
+    width: auto;
+    padding: auto;
+    text-align: right;
+
+
+}
+div{
+    background-color:aquamarine;
+    width:350px;
+    height:150px;
+}
+
+.perkenalan{
+    float: left;
+}
+.video{ 
+    width:200;
+    height:200px;
+    float: right;
+}
+</style> 
+    <header> 
+        <table>
+            <tr> 
+                <td> <img width="150" height="180"src="https://github.com/Salmon-sky" alt=""></td>
+                <td>
+                    <h1>Hai, saya Muhammad Khadziq</h1>
+                    <br><b>seorang mahasiswa jurusan Teknik Informatika</br></b>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <nav>
+        <div class="navigasi">
+            <a href="#tentang">About Me</a>
+            <a href="#pengalaman">Pengalaman</a>
+            <a href="#hubungi saya">hubungi saya</a>
+
+        </div>
+    </nav>
+           
+
+            <div class="pengenalan">
+            <h2 id="tentang">Tentang Diri Saya</h2>
+            <p> Saya adalah seorang mahasiswa semester 5, merupakan seorang individual yang dapat bersosialisasi dengan baik, dapat berkomunikasi dengan lancar, dapat memanajemen waktu, dan dapat bekerja sama dalam sebuah tim</p>
+            </div>
+
+        <section>
+            <div class="video">
+            <iframe width="500" height="500" src="https://youtu.be/icgZwaiD2Yw" title="TUGAS BESAR DRPL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+            <p></p>
+            <h2 id="pengalaman">Pengalaman Kepanitian:</h2>
+            <table border="5" width="800px">   
+                <thead>
+                    <tr style="background-color:blueviolet;">
+                      <th>No</th>
+                      <th>Nama Kegiatan</th>
+                      <th>Divisi</th>
+                      <th>Mulai</th>
+                      <th>Selesai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Kaderisasi</td>
+                      <td>Medis</td>
+                      <td>2022</td>
+                      <td>2022</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Riuh Wisuda Terpusat</td>
+                      <td>Koordinator Lapangan</td>
+                      <td>2022</td>
+                      <td>2022</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Seminar KWU</td>
+                      <td>Operasional</td>
+                      <td>2022</td>
+                      <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Risma Assalam</td>
+                        <td>publikasi</td>
+                        <td>2022</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+    <h2 id="hubungi saya">Hubungi Saya</h2>
+    <div class="pertanyaan">
+    <form>
+        <label for="Nama">Nama :</label>
+        <input type="text" id="nama" name="title" >
+    </form>
+   
+    <p>Apakah anda sudah menonton vidio tentang saya?</p>
+    <form>
+        <input type="radio" id="Sudah" name="vid_sudah" value="Sudah">
+        <label for="Sudah">Sudah Menonton</label>
+        <input type="radio" id="Belum" name="vid_belum" value="Belum">
+        <label for="Belum">Belum Menonton</label>
+    <br>
+    <p>Bagaimana tentang video saya?</p>
+        <input type="checkbox" name="Video" id="Menarik" value="Menarik">
+        <label for="Menarik">Menarik</label>
+        <input type="checkbox" name="Video" id="Kurang Menarik" value="kurang Menarik">
+        <label for="Kurang Menarik">Kurang Menarik</label>
+        <input type="checkbox" name="Video" id="Biasa Saja" value="Biasa saja">
+        <label for="Biasa Saja">Biasa Saja</label>  
+    </form>  
+
+        <input type="submit"placeholder="kirim">
+    </div>
+    
+</body>
+</html>
