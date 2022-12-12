@@ -1,0 +1,161 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .cv {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: "Courier New", Courier, monospace;
+    color: #1C315E;
+  }
+  
+  .gambar {
+    background: rgb(41, 8, 205);
+  }
+  .menu {
+    float: right;
+  }
+  
+  nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFFFD0;
+    z-index: 1;
+    border-bottom: 2px solid #000000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  section #pengalamankerja {
+    margin: auto;
+  }
+  
+  .bagian {
+    width: 18%;
+    background-color: #FFFFD0;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lato";
+  }
+  
+  .kolom {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lato";
+    color: #424874;
+    width: 100%;
+  }
+  
+  h2 {
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #f07b3f;
+    width: 100%;
+    line-height: 50px;
+  }
+  
+  #contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+    z-index: 1;
+    border-top: 5px solid #ff0000;
+  }
+  
+  .footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .footer-section {
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #f07b3f;
+    width: 100%;
+    line-height: 50px;
+  }
+  
+  .table {
+    width: 100%;
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 25px;
+  }
+  
+  .hubungi {
+    width: 100%;
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 25px;
+  }
+  
+  .kirim {
+    color: blue;
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 25px;
+  }
+  
