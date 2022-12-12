@@ -1,149 +1,260 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Latihan Percobaan Praktikum Pemweb 2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakpemweb2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-header{
-    background-color: darkgrey;
-    Font-family:verdana;
-}
-
-h1{ 
-    color:aliceblue; 
-}
-
-h2{
-    background-color:darkgrey;
-    width:200px;
-    height:40px;
-}
-.navigasi{
-    background-color: aquamarine;
-    height: 30px;
-    width: auto;
-    padding: auto;
-    text-align: right;
-
-
-}
-div{
-    background-color:aquamarine;
-    width:350px;
-    height:150px;
-}
-
-.perkenalan{
-    float: left;
-}
-.video{ 
-    width:200;
-    height:200px;
-    float: right;
-}
-</style> 
-    <header> 
-        <table>
-            <tr> 
-                <td> <img width="150" height="180"src="https://github.com/Salmon-sky" alt=""></td>
-                <td>
-                    <h1>Hai, saya Muhammad Khadziq</h1>
-                    <br><b>seorang mahasiswa jurusan Teknik Informatika</br></b>
-                </td>
-            </tr>
-        </table>
-    </header>
+<body>
     <nav>
-        <div class="navigasi">
-            <a href="#tentang">About Me</a>
-            <a href="#pengalaman">Pengalaman</a>
-            <a href="#hubungi saya">hubungi saya</a>
+        <div class="wrapper">
 
+            <div class="cv">CV</div>
+
+            </p>
+            <div class="menu">
+                <ul>
+                    <li><a href="#tentangsaya">TENTANG SAYA</a></li>
+                    <li><a href="#pengalamankerja">PENGALAMAN KERJA</a></li>
+                    <li><a href="#hubungisaya">HUBUNGI SAYA</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-           
-
-            <div class="pengenalan">
-            <h2 id="tentang">Tentang Diri Saya</h2>
-            <p> Saya adalah seorang mahasiswa semester 5, merupakan seorang individual yang dapat bersosialisasi dengan baik, dapat berkomunikasi dengan lancar, dapat memanajemen waktu, dan dapat bekerja sama dalam sebuah tim</p>
+    <div class="wrapper">
+        <!-- tentang saya-->
+        <section id="tentangsaya">
+            <img src="MUHAMMAD KHADZIQ.jpg" width="97" height="136" class="gambar">
+            <br>
+            <div class="kolom">
+                <p class="bagian">#tentang saya</p>
+                <p class="deskripsi">Perkenalkan Nama Saya Muhammad Khadziq</p>
+                <p>Hehe Iya</p>
             </div>
 
-        <section>
-            <div class="video">
-            <iframe width="500" height="500" src="https://youtu.be/icgZwaiD2Yw" title="TUGAS BESAR DRPL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- pengalaman kerja-->
+        <section id="pengalamankerja">
+            <div class="kolom">
+                <p class="bagian">#pengalaman kerja</p>
+                <br>
+                <table class="table" border="1">
+                    <tr>
+                        <th>No</th>
+                        <th>Posisi</th>
+                        <th>Perusahaan</th>
+                        <th>Waktu</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pemburu Ubur-Ubur.</td>
+                        <td>PT. jelly fish field Bikini Bottom</td>
+                        <td>08.00 - 10.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Koki Krusty Krab</td>
+                        <td>PT. Krusty Krab Bikini Bottom</td>
+                        <td>11.00 - 15.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>StackHolder</td>
+                        <td>MARKA</td>
+                        <td>16.00 - 00.00</td>
+                    </tr>
+                </table>
             </div>
         </section>
-            <p></p>
-            <h2 id="pengalaman">Pengalaman Kepanitian:</h2>
-            <table border="5" width="800px">   
-                <thead>
-                    <tr style="background-color:blueviolet;">
-                      <th>No</th>
-                      <th>Nama Kegiatan</th>
-                      <th>Divisi</th>
-                      <th>Mulai</th>
-                      <th>Selesai</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Kaderisasi</td>
-                      <td>Medis</td>
-                      <td>2022</td>
-                      <td>2022</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Riuh Wisuda Terpusat</td>
-                      <td>Koordinator Lapangan</td>
-                      <td>2022</td>
-                      <td>2022</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Seminar KWU</td>
-                      <td>Operasional</td>
-                      <td>2022</td>
-                      <td>2022</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Risma Assalam</td>
-                        <td>publikasi</td>
-                        <td>2022</td>
-                        <td>2022</td>
-                    </tr>
-                </tbody>
-            </table>
 
-            
-    <h2 id="hubungi saya">Hubungi Saya</h2>
-    <div class="pertanyaan">
-    <form>
-        <label for="Nama">Nama :</label>
-        <input type="text" id="nama" name="title" >
-    </form>
-   
-    <p>Apakah anda sudah menonton vidio tentang saya?</p>
-    <form>
-        <input type="radio" id="Sudah" name="vid_sudah" value="Sudah">
-        <label for="Sudah">Sudah Menonton</label>
-        <input type="radio" id="Belum" name="vid_belum" value="Belum">
-        <label for="Belum">Belum Menonton</label>
-    <br>
-    <p>Bagaimana tentang video saya?</p>
-        <input type="checkbox" name="Video" id="Menarik" value="Menarik">
-        <label for="Menarik">Menarik</label>
-        <input type="checkbox" name="Video" id="Kurang Menarik" value="kurang Menarik">
-        <label for="Kurang Menarik">Kurang Menarik</label>
-        <input type="checkbox" name="Video" id="Biasa Saja" value="Biasa saja">
-        <label for="Biasa Saja">Biasa Saja</label>  
-    </form>  
-
-        <input type="submit"placeholder="kirim">
+        <!--hubungi saya-->
+        <section id="hubungisaya">
+            <div class="kolom">
+                <p class="bagian">#hubungi saya</p>
+                <div class="hubungi">
+                    <form>
+                        <label>
+                            Nama :
+                            <br>
+                            <input type="text" placeholder="Masukkan nama">
+                        </label>
+                        <label>
+                            <br>
+                            <p>Jenis Kelamin :
+                                <select>
+                                    <option>laki laki</option>
+                                    <option>perempuan</option>
+                                    <option>LGHDTV+</option>
+                                </select>
+                            </p>
+                        </label>
+                        <label>
+                            Skill :
+                            <br>
+                            <input type="checkbox">HTML
+                            <input type="checkbox">CSS
+                            <input type="checkbox">PHP
+                        </label>
+                        <label>
+                            <br>
+                            <button class="kirim">Kirim</button>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
-    
+
+
+    <!--  <h3>Identitas Diri</h3>
+    <table>
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>Muhammad Khadziq</td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td>120140233</td>
+        </tr>
+        <tr>
+            <td>Program Studi</td>
+            <td>:</td>
+            <td>S1 Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>Tempat, Tanggal Lahir</td>
+            <td>:</td>
+            <td>WONOSOBO, 01-Agustus-2002</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>Laki laki</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td>Jl P.Damar GG. Teratai - B.Lampung</td>
+        </tr>
+        <tr>
+            <td>Nomor Telp</td>
+            <td>:</td>
+            <td><a href="https://wa.me/+6282276101017"> 082276101017</a></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td>muhammad.120140233@student.itera.ac.id</td>
+        </tr>
+        <tr>
+            <td>Instagram</td>
+            <td>:</td>
+            <td><a href="https://www.instagram.com/mhmmdkhdzq/">mhmmdkhdzq</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Tentang Saya</h3>
+    <p>Perkenalkan Nama saya Muhammad Khadziq dengan NIM 120140233. Saya sedang menjalankan studi saya di ITERA dengan
+        mengambil
+        Prodi Teknik Informatika. Saya berminat masuk Taknik Informatika karena saya suka tentang Komputer.
+    </p>
+    <p>
+        Saya tinggal Di Bandar Lampung. saya kuliah di itera karena dekat dengan rumah.
+        Saya 3 Bersaudara dan saya anak pertama. udah gitu aja.
+    </p>
+    <hr>
+    <h3>Riwayat Pendidikan</h3>
+    <table>
+        <tr>
+            <td>2006-2008</td>
+            <td>:</td>
+            <td>TK KUNTUM MEKAR 2</td>
+        </tr>
+        <tr>
+            <td>2008-2014</td>
+            <td>:</td>
+            <td>SD MIN SUKARAME BDL</td>
+        </tr>
+        <tr>
+            <td>2014-2017</td>
+            <td>:</td>
+            <td>SMP PGRI 6 BDL</td>
+        </tr>
+        <tr>
+            <td>2017-2020</td>
+            <td>:</td>
+            <td>SMA Al-Azhar 3 BDL</td>
+        </tr>
+        <tr>
+            <td>2020-Sekarang</td>
+            <td>:</td>
+            <td>Institut Teknologi Sumatera</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Pengalaman Organisasi</h3>
+    <table>
+        <ul>
+            <li>staff Kaderisasi</li>
+            <li>staff operasional Seminar KWU</li>
+            <li>staff akademik beasiswa</li>
+            <li>Anggota Risma AS-Salam</li>
+        </ul>
+    </table>
+    <hr>
+    <h3>Bidang Kemampuan</h3>
+    <table>
+        <ul>
+            <li>Microsoft Office</li>
+        </ul>
+        <ol>
+            <li>Microsoft word</li>
+            <li>Microsoft power point</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft Power Point</li>
+        </ol>
+        <ul>
+            <li>Desain </li>
+        </ul>
+        <ol>
+            <li>Photoshop</li>
+            <li>Canva</li>
+        </ol>
+    </table>
+    <hr>
+    <h3>Hobby</h3>
+    <table>
+        <ul>
+            <li>Badminton</li>
+            <li>bermain game</li>
+            <li>Volly</li>
+            <li>Tidur</li>
+        </ul>
+    </table>-->
+
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Muhammad Khadziq</h3>
+                    <p>Hehe Iya</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <li><b>muhammad.120140233@student.itera.ac.id</b></li>
+                    <li><b>082276101017</b></li>
+                    <li><a href="http://instagram.com/mhmmdkhdzq"><b>Instagram : mhmmdkhdzq</b></a></li>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
